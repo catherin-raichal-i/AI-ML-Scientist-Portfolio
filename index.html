@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Constance Xavier | AI Data Scientist Portfolio">
+    <title>Constance Xavier</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Three.js Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- NAV -->
+    <header class="pill-nav" id="navbar">
+        <nav>
+            <div class="logo">AI<span class="grad">Constance</span></div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <a href="#contact" class="btn-grad btn-sm">Hire Me</a>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ===== HERO ===== -->
+        <section id="home" class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-left reveal">
+                    <p class="eyebrow"><i class="fas fa-bolt"></i> &nbsp;AI &amp; Data Scientist</p>
+                    <h1>Hi! I'm <br><span class="grad">Constance</span> Xavier</h1>
+                    <p class="lead">I build intelligent systems — from Machine Learning pipelines to Deep Learning
+                        architectures — transforming raw data into powerful insights.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn-grad">View Projects <i class="fas fa-rocket"></i></a>
+                        <a href="#contact" class="btn-outline">Let's Talk</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat"><span class="num">20+</span><span>Models</span></div>
+                        <div class="stat"><span class="num">3+</span><span>Years</span></div>
+                        <div class="stat"><span class="num">15+</span><span>Projects</span></div>
+                    </div>
+                </div>
+                <div class="hero-right reveal">
+                    <div class="img-orbit">
+                        <div class="orbit-ring ring-1">
+                            <div class="orbit-dot dot-1"><i class="fab fa-python"></i></div>
+                            <div class="orbit-dot dot-2"><i class="fas fa-brain"></i></div>
+                        </div>
+                        <div class="orbit-ring ring-2">
+                            <div class="orbit-dot dot-3"><i class="fab fa-aws"></i></div>
+                            <div class="orbit-dot dot-4"><i class="fas fa-database"></i></div>
+                            <div class="orbit-dot dot-5"><i class="fas fa-chart-line"></i></div>
+                        </div>
+                        <div class="hero-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                                alt="Catherin" class="hero-img">
+                        </div>
+                    </div>
+                    <div class="float-badge badge-a">
+                        <i class="fas fa-award text-orange"></i>
+                        <div><b>Best AI Project</b><br><small>2024 Award</small></div>
+                    </div>
+                    <div class="float-badge badge-b">
+                        <i class="fas fa-chart-network text-purple"></i>
+                        <div><b>Data Expert</b><br><small>3+ Yrs Research</small></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ABOUT ===== -->
+        <section id="about" class="about-section section-pad">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="tag">Who I Am</span>
+                    <h2>About <span class="grad">Me</span></h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-img-wrap reveal">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="About" class="about-img">
+                        <div class="about-badge">
+                            <i class="fas fa-graduation-cap text-orange"></i>
+                            <div><b>Data Scientist</b><br><small>AI / ML Engineer</small></div>
+                        </div>
+                    </div>
+                    <div class="about-text reveal">
+                        <h3>Engineering <span class="grad">Intelligence</span> from Data</h3>
+                        <p>I am a passionate Data Scientist and AI/ML Engineer dedicated to building systems that learn,
+                            adapt, and scale. I specialize in designing end-to-end machine learning pipelines, from data
+                            wrangling and feature engineering to model deployment and monitoring.</p>
+                        <p>With 3+ years of hands-on research and project delivery, I have built NLP systems, computer
+                            vision models, and predictive analytics dashboards that power real-world decisions.</p>
+                        <div class="about-cards">
+                            <div class="about-card">
+                                <i class="fas fa-brain text-orange"></i>
+                                <div>
+                                    <b>Machine Learning</b>
+                                    <span>TensorFlow, PyTorch, Scikit-Learn</span>
+                                </div>
+                            </div>
+                            <div class="about-card">
+                                <i class="fas fa-database text-purple"></i>
+                                <div>
+                                    <b>Data Engineering</b>
+                                    <span>SQL, Pandas, Apache Spark</span>
+                                </div>
+                            </div>
+                            <div class="about-card">
+                                <i class="fas fa-cloud text-cyan"></i>
+                                <div>
+                                    <b>Cloud & MLOps</b>
+                                    <span>AWS, Docker, FastAPI</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn-grad mt-4">Let's Collaborate</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SKILLS ===== -->
+        <section id="skills" class="skills-section section-pad">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="tag">Tech Stack</span>
+                    <h2>My <span class="grad">Skills</span></h2>
+                </div>
+            </div>
+            <div class="marquee-container reveal">
+                <!-- Row 1: Left -->
+                <div class="marquee-row marquee-left">
+                    <div class="marquee-content">
+                        <!-- Row 1: Core Data Science -->
+                        <div class="app-icon" style="background:#306998" title="Python"><i class="fab fa-python"></i>
+                        </div>
+                        <div class="app-icon" style="background:#FF6F00" title="TensorFlow"><i class="fas fa-brain"></i>
+                        </div>
+                        <div class="app-icon" style="background:#EE4C2C" title="PyTorch"><i class="fas fa-fire"></i>
+                        </div>
+                        <div class="app-icon" style="background:#F7931E" title="Scikit-Learn"><i
+                                class="fas fa-microchip"></i></div>
+                        <div class="app-icon" style="background:#D00000" title="Keras"><i
+                                class="fas fa-project-diagram"></i></div>
+                        <div class="app-icon" style="background:#150458" title="Pandas"><i class="fas fa-table"></i>
+                        </div>
+                        <div class="app-icon" style="background:#013243" title="NumPy"><i class="fas fa-calculator"></i>
+                        </div>
+                        <div class="app-icon" style="background:#00758F" title="SQL"><i class="fas fa-database"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row 2: Right -->
+                <div class="marquee-row marquee-right">
+                    <div class="marquee-content">
+                        <!-- Row 2: Visualization & Engineering -->
+                        <div class="app-icon" style="background:#E97627" title="Tableau"><i
+                                class="fas fa-chart-line"></i></div>
+                        <div class="app-icon" style="background:#F2C811" title="Power BI"><i
+                                class="fas fa-chart-bar"></i></div>
+                        <div class="app-icon" style="background:#276DC3" title="R Programming"><i
+                                class="fab fa-r-project"></i></div>
+                        <div class="app-icon" style="background:#E25A1C" title="Apache Spark"><i
+                                class="fas fa-bolt"></i></div>
+                        <div class="app-icon" style="background:#FFD43B" title="Apache Hadoop"><i
+                                class="fas fa-elephant"></i></div>
+                        <div class="app-icon" style="background:#FF9900" title="AWS Sagemaker"><i
+                                class="fab fa-aws"></i></div>
+                        <div class="app-icon" style="background:#2496ED" title="Docker"><i class="fab fa-docker"></i>
+                        </div>
+                        <div class="app-icon" style="background:#F05032" title="Git"><i class="fab fa-git-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row 3: Left slower -->
+                <div class="marquee-row marquee-left">
+                    <div class="marquee-content" style="animation-duration:38s;">
+                        <div class="app-icon" style="background:#FFD21E" title="Hugging Face"><i
+                                class="fas fa-smile"></i></div>
+                        <div class="app-icon" style="background:#000000" title="OpenAI"><i class="fas fa-robot"></i>
+                        </div>
+                        <div class="app-icon" style="background:#1C274C" title="LangChain"><i class="fas fa-link"></i>
+                        </div>
+                        <div class="app-icon" style="background:#FF4B4B" title="Streamlit"><i
+                                class="fas fa-play-circle"></i></div>
+                        <div class="app-icon" style="background:#013243" title="Matplotlib"><i
+                                class="fas fa-chart-area"></i></div>
+                        <div class="app-icon" style="background:#F7931E" title="Seaborn"><i
+                                class="fas fa-wave-square"></i></div>
+                        <div class="app-icon" style="background:#0D1117" title="Weights & Biases"><i
+                                class="fas fa-balance-scale"></i></div>
+                        <div class="app-icon" style="background:#1a1a1a" title="MLOps"><i class="fas fa-cogs"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SERVICES ===== -->
+        <section id="services" class="services-section section-pad">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="tag">What I Do</span>
+                    <h2>My <span class="grad">Services</span></h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card reveal">
+                        <div class="service-icon"><i class="fas fa-brain"></i></div>
+                        <h3>Machine Learning</h3>
+                        <p>End-to-end ML pipeline design, from feature engineering to model deployment, using
+                            TensorFlow, PyTorch, and Scikit-Learn.</p>
+                    </div>
+                    <div class="service-card reveal">
+                        <div class="service-icon" style="color:#a855f7"><i class="fas fa-layer-group"></i></div>
+                        <h3>Data Engineering</h3>
+                        <p>Building scalable data pipelines, ETL workflows, and real-time streaming architectures using
+                            SQL, Pandas, and Apache Spark.</p>
+                    </div>
+                    <div class="service-card reveal">
+                        <div class="service-icon" style="color:#22d3ee"><i class="fas fa-chart-bar"></i></div>
+                        <h3>Data Visualization</h3>
+                        <p>Transforming complex datasets into interactive dashboards and rich visual narratives using
+                            Tableau, Power BI, and Matplotlib.</p>
+                    </div>
+                    <div class="service-card reveal">
+                        <div class="service-icon" style="color:#f472b6"><i class="fas fa-robot"></i></div>
+                        <h3>AI Model Deployment</h3>
+                        <p>Serving ML models via REST APIs using FastAPI and Docker, with cloud hosting on AWS for
+                            production-grade reliability.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJECTS ===== -->
+        <section id="projects" class="projects-section section-pad">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="tag">Portfolio</span>
+                    <h2>Recent <span class="grad">Projects</span></h2>
+                </div>
+                <div class="projects-grid" id="projects-container">
+                    <div class="project-card reveal">
+                        <div class="project-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1543286386-2e659306cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                                alt="NLP" class="project-img">
+                            <div class="project-overlay"><a href="#" class="btn-grad btn-sm">View</a></div>
+                        </div>
+                        <div class="project-info">
+                            <h3>NLP Sentiment Engine</h3>
+                            <p>Transformer-based pipeline for real-time streaming sentiment analysis.</p>
+                            <div class="tech-tags"><span>PyTorch</span><span>HuggingFace</span><span>FastAPI</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card reveal">
+                        <div class="project-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                                alt="Analytics" class="project-img">
+                            <div class="project-overlay"><a href="#" class="btn-grad btn-sm">View</a></div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Predictive Analytics Dashboard</h3>
+                            <p>Interactive Tableau dashboard with ML-powered demand forecasting.</p>
+                            <div class="tech-tags"><span>Python</span><span>Tableau</span><span>Scikit-Learn</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card reveal">
+                        <div class="project-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                                alt="CV" class="project-img">
+                            <div class="project-overlay"><a href="#" class="btn-grad btn-sm">View</a></div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Computer Vision Model</h3>
+                            <p>CNN-based image classification and object detection for medical imaging.</p>
+                            <div class="tech-tags"><span>TensorFlow</span><span>OpenCV</span><span>Docker</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT ===== -->
+        <section id="contact" class="contact-section section-pad">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="tag">Get In Touch</span>
+                    <h2>Ready To <span class="grad">Start?</span></h2>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info reveal">
+                        <h3>Let's Build Something <span class="grad">Amazing</span></h3>
+                        <p>Looking for an AI expert to engineer your data into intelligence? Open a channel and let's
+                            connect.</p>
+                        <div class="contact-items">
+                            <div class="contact-item">
+                                <div class="c-icon"><i class="fas fa-envelope"></i></div>
+                                <span>constances2004@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <div class="c-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <span>Chennai</span>
+                            </div>
+                            <div class="contact-item">
+                                <div class="c-icon"><i class="fab fa-github"></i></div>
+                                <a href="https://github.com/CodecraftsFamilySMBCL" target="_blank">
+                                    <span>GitHub</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <form action="https://api.web3forms.com/submit" method="POST" class="contact-form reveal" id="contact-form">
+
+                          <input type="hidden" name="access_key" value="9defcc2d-c73f-4fc7-a1e4-226823580649">
+
+                        <div class="form-group">
+                            <label>Your Name</label>
+                            <input type="text" id="f-name" placeholder="Dr. Alan Turing" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" id="f-email" placeholder="alan@institute.org" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea id="f-msg" rows="5" placeholder="Hello Constance, I have a project..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn-grad w-100">Send Message <i
+                                class="fas fa-paper-plane"></i></button>
+                        <div class="form-success hidden" id="form-success"><i class="fas fa-check-circle"></i> Message
+                            sent successfully!</div>
+                    </form> -->
+
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form reveal"
+                        id="contact-form">
+
+                        <input type="hidden" name="access_key" value="9defcc2d-c73f-4fc7-a1e4-226823580649">
+
+                        <div class="form-group">
+                            <label>Your Name</label>
+                            <input type="text" name="name" id="f-name" placeholder="Dr. Alan Turing" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" name="email" id="f-email" placeholder="alan@institute.org" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea name="message" id="f-msg" rows="5" placeholder="Hello..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-grad w-100">
+                            Send Message <i class="fas fa-paper-plane"></i>
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-inner">
+            <div class="logo">AI<span class="grad">Constance</span></div>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://github.com/CodecraftsFamilySMBCL" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/constancexaviers-cse/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <p class="footer-copy">&copy; <span id="current-year"></span> Catherin Raichal. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
